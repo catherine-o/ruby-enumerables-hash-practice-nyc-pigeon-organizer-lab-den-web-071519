@@ -15,6 +15,7 @@ def nyc_pigeon_organizer(data)
         
         if !new_hash[name][attribute].include?(detail)
           new_hash[name][attribute] << detail.to_s
+        end
    binding.pry
       end
     end
