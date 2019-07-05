@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         end
         
         if !new_hash[name].keys.include(attribute)
-          
+          new_hash
    binding.pry
       end
     end
