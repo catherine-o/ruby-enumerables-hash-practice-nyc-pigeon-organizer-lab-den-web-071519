@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(data)
           new_data = {new_hash.keys => attribute}
           
    binding.pry
+        end
       end
     end
   end
