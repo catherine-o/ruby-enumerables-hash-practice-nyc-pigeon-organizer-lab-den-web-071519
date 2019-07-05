@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
         end
         
         if !new_hash[name][attribute].include?(detail)
-          new_hash[name][attribute]
+          new_hash[name][attribute] <<
    binding.pry
       end
     end
