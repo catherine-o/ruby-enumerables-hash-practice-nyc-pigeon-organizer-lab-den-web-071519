@@ -8,8 +8,10 @@ def nyc_pigeon_organizer(data)
         if !new_hash.include?(name)
           new_hash.merge!(name => detail)
         end
-   binding.pry
+   
       end
     end
   end
+  new_hash
+  binding.pry
 end
