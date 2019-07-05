@@ -8,8 +8,6 @@ def nyc_pigeon_organizer(data)
       reverse_info.each do |names, details|
         new_hash = Hash[names.collect {|name| [name, details]} ]
    binding.pry
-        
-        
       end
     end
   end
