@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
           new_hash.merge!(name => detail)
         end
    binding.pry
-        
+      end
     end
   end
 end
